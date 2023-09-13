@@ -1,0 +1,1 @@
+print(list(range(100))[1 : 100 : 2])

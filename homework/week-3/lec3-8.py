@@ -47,5 +47,3 @@ list3 = [random.randint(0, 1000000) for _ in range(0, 1000)]
 
 print(list1)
 print(merge_sort(list1))
-
-#由于分治算法时间复杂度只有nlogn，在长度较大的情况下时间较快，而选择排序时间复杂度为n^2,在长度较大的情况下时间较慢
